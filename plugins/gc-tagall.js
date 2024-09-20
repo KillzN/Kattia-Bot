@@ -5,9 +5,9 @@ let handler = async(m, { isOwner, isAdmin, conn, text, participants, args, comma
   }
   let pesan = args.join` `
   let oi = `*𝙀𝙏𝙄𝙌𝙐𝙀𝙏𝘼𝙎:* ${pesan}`
-  let teks = `*> 🐉𝑲 𝒚 𝑭 𝒃𝒐𝒕 𝒍𝒐𝒔 𝒊𝒏𝒗𝒐𝒄𝒂🐉*\n\n ${oi}\n\n➥ _*@sx7_kattia_ff:*_\n`
+  let teks = `*> 💎𝑲 𝒚 𝑭 𝒃𝒐𝒕 𝒍𝒐𝒔 𝒊𝒏𝒗𝒐𝒄𝒂💎*\n\n ${oi}\n\n➥ _*@kattia.dzn:*_\n`
   for (let mem of participants) {
-  teks += `🐉 ⇝ @${mem.id.split('@')[0]}\n`}
+  teks += `💎 ⇝ @${mem.id.split('@')[0]}\n`}
   teks += `└ *K y F Bot*`
   conn.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, )
   }
